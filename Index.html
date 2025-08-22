@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+<!-- Navbar-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Zenless zone zero</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#personajes">Caracteristicas</a></li> <!-- Aqui para hacerlo funcional solo Lo cambié por un enlace con un ID específico: -->
+                <li class="nav-item"><a class="nav-link" href="#reseñas">Reseñas</a></li><!-- Aqui para hacerlo funcional hice lo mismo -->
+                <li class="nav-item"><a class="nav-link" href="#hoyoverse">Comprar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!-- Inicio-trailer-->
+<section class="text-white text-center d-flex align-items-center justify-content-center" 
+         style="height: 200vh; background: url('https://fastcdn.hoyoverse.com/content-v2/nap/102026/37198ce9c5ee13abb2c49f1bd1c3ca97_7846165079824928446.png') center/cover no-repeat;">
+  <div class="container bg-dark bg-opacity-50 p-5 rounded">
+    <h1 class="display-3 fw-bold">Zenless zone zero</h1>
+    <p class="lead mt-3">Zenless Zone Zero es un juego de rol de acción y hack and slash</p>
+    <div class="mt-4">
+      <a href="https://youtu.be/Alr_9zIyDZ0?si=qreW7QOnE5GnCNlN" target="_blank" class="btn btn-secondary btn-lg my-2">Ver Trailer</a>
+      <a href="#comprar" class="btn btn-outline-light btn-lg">Pre-ordenar Ahora</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Seccion de compra y psinopsis-->
+<main>
+<section id="hoyoverse" class="py-5 text-center container"> <!-- aqui solo referencie como arriba y ya-->
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.l-bo68NYJCtxEeTpVynH-QHaHa?r=0&w=640&h=640&rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded-circle mb-4" style="width: 220px; height: 220px; object-fit: cover;" alt="Foto de perfil">
+        <h1 class="fw-light">Hoyoverse</h1>
+        <p class="lead text-muted">Zenless Zone Zero es un juego de rol de acción y hack and slash. El jugador controla a los personajes en una perspectiva en tercera persona y en un espacio tridimensional​. En cuanto a su estructura el juego es lineal con las peleas restringidas a arenas designadas.</p>
+          <a href="https://www.xbox.com/es-co/games/store/zenless-zone-zero/9n4x0wfz2stm" target="_blank" class="btn btn-primary my-2">Comprar</a> <!-- Cambié el href (<a href="#" class="btn btn-primary my-2">Comprar</a>) Lo cambié a: <a href="https://www.xbox.com/" class="btn btn-primary my-2">Comprar</a> y agregué el atributo target="_blank" que se usa para para definir dónde se abrirá la página o recurso al que apunta el link.-->
+          <a href="#" class="btn btn-secondary my-2">Caracteristicas</a>
+          <a href="#" class="btn btn-secondary my-2">Reseñas</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- Cartas o personajes-->
+<div id="personajes" class="album py-5 bg-light"> <!-- aqui solo le agregué un id="personajes" para que coincida con el enlace del navbar: y ya -->
+  <div class="container">
+    <h2 class="text-center mb-5">Personajes</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="https://fastcdn.hoyoverse.com/content-v2/nap/157833/4753ac41fd39f1bfc4d498d95dd9413f_8227006151760936870.png" class="card-img-top" style="height: 225px; object-fit: cover;" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Orpheus</h5>
+            <p class="card-text">Personaje 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="https://fastcdn.hoyoverse.com/content-v2/nap/157829/d516676e8f25ce417d31039bab96b094_1840268703818138952.png" class="card-img-top" style="height: 225px; object-fit: cover;" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Seed</h5>
+            <p class="card-text">Personaje 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="https://fastcdn.hoyoverse.com/content-v2/nap/154605/f6b7a0a29487f8153da57fe124f048a9_4437497753091967697.png" class="card-img-top" style="height: 225px; object-fit: cover;" alt="Proyecto 3">
+          <div class="card-body">
+            <h5 class="card-title">Mockingbird Vivi</h5>
+            <p class="card-text">Personaje 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--Reseñas- contacto- logo de juego-->
+<section class="py-5">
+  <div id="reseñas" class="container my-5"> <!-- aca la reseña -->
+    <h2 class="text-center mb-5">Reseñas</h2>
+    <div id="testimonialCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="5" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="5" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner text-center py-4">
+        <div class="carousel-item active">
+          <p class="lead">"Un buen gasha
+Es uno de los mejores juego como servicio que he jugado, tiene un excelente estilo artístico una buena historia y unos combates satisfactorio."</p>
+          <footer class="blockquote-footer">Cliente Satisfecho</footer>
+        </div>
+        <div class="carousel-item">
+          <p class="lead">"Waifus hermosas, preciosas, hermosas y pechugonas"</p>
+          <footer class="blockquote-footer">Cliente Satisfecho</footer>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Contacto</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Correo</label>
+            <input type="email" class="form-control" placeholder="Soyguapo@ejemplo.com" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="col">
+        <div class="card shadow-sm">
+          <img src="https://latestlogo.com/wp-content/uploads/2024/06/zenless-zone-zero-logo.png" class="card-img-top" style="height: 400px; object-fit: cover;" alt="Proyecto 3">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Descarga Ahora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<!--Pie de pagina-->
+<footer class="py-4 bg-dark text-white text-center">
+  <div class="container">
+    <p class="mb-2">©Hoyoverse</p>
+    <div>
+      <a href="#" class="text-white mx-2"><i class="bi bi-github"></i></a>
+      <a href="#" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="text-white mx-2"><i class="bi bi-twitter-x"></i></a>
+    </div>
+  </div>
+</footer>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+
+  </head>
+  <body>
+    <h1></h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
